@@ -5,10 +5,9 @@ Favor utilizar as respectivas pastas para postar os trabalhos de cada unidade.
 
 Alunos:  
 
-- Computação:  
-- Pedagogia:  
+- Computação:   Leonardo De Oliveira - Rafael Barbosa Kretzer - Sarah de Barcelos Freitas - Vinicius Pereira Forte  
 
-Assunto:  
+Assunto: Realidade Virtual Imersiva  
 
 ## [Atividades da Unidade 1](unidade_1 "Atividades da Unidade 1")  
 
