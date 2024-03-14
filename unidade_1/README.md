@@ -4,23 +4,17 @@ Local para postar a atividade da unidade 1.
 
 ## Avaliação
 
+Nota: 10,0  
+
 ### Trabalho Correlato 1
 
-Acadêmico:  
-Comentários:  
-
--  
+immersed - https://immersed.com/  
 
 ### Trabalho Correlato 2
 
-Acadêmico:  
-Comentários:  
-
--  
+gravitysketch - https://www.meta.com/experiences/1587090851394426/  
+ArKio  
 
 ### Trabalho Correlato 3
 
-Acadêmico:  
-Comentários:  
-
--  
+meetinVR - https://www.meetinvr.com/  
