@@ -15,11 +15,12 @@ public class QuizManager : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("Iniciei!");
         // load the questions from a data source (e.g. JSON file)
         questions = LoadQuestions();
 
         // display the first question
-        DisplayQuestion(0);
+        DisplayQuestion(SceneCategory.value);
     }
 
     void DisplayQuestion(int index)
@@ -30,7 +31,7 @@ public class QuizManager : MonoBehaviour
         // set the answer texts
         for (int i = 0; i < answerTexts.Count; i++)
         {
-            answerTexts[i].text = questions[index].answers[i];
+            answerTexts[i].text = questions[index].options[i];
         }
 
         // reset the button selectors
@@ -46,7 +47,7 @@ public class QuizManager : MonoBehaviour
     public void SelectAnswer(int answerIndex)
     {
         // check if the answer is correct
-        bool isCorrect = questions[currentQuestionIndex].correctAnswer == answerIndex;
+        bool isCorrect = questions[currentQuestionIndex].answer == answerIndex;
 
         // display feedback to the player
         if (isCorrect)
@@ -73,7 +74,7 @@ public class QuizManager : MonoBehaviour
     private List<Question> LoadQuestions()
     {
         QuestionLoader questionLoader = FindObjectOfType<QuestionLoader>();
-        return questionLoader.GetQuestions();
+        return questionLoader.GetQuestions(0);
     }
 }
 

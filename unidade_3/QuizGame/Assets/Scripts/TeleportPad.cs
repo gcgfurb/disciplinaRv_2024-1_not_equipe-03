@@ -7,6 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class TeleportPadBehaviour : MonoBehaviour
 {
+
+    [SerializeField]
+    int category;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +26,8 @@ public class TeleportPadBehaviour : MonoBehaviour
     {
         if (!other.gameObject.CompareTag("Player"))
             return;
+
+        SceneCategory.value = category;
 
         Debug.Log("Collided with a Player");
         SceneManager.LoadScene("SampleScene");

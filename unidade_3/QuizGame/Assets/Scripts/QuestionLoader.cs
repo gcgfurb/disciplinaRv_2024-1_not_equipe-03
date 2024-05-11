@@ -6,30 +6,32 @@ using UnityEngine;
 public class Question
 {
     public string question; // the question text
-    public List<string> answers; // the answer choices
-    public int correctAnswer; // the index of the correct answer
+    public List<string> options; // the options choices
+    public int answer; // the index of the correct answer
 }
 
 [System.Serializable]
 public class QuestionData
-{
+{   
+
+    public string name;
     public List<Question> questions; // the list of questions
 }
 
 public class QuestionLoader : MonoBehaviour
 {
-    public TextAsset questionDataFile; // the JSON file containing the questions
+    public TextAsset questionDataFile = Resources.Load("Resources/Perguntas_Quizz.json") as TextAsset; // the JSON file containing the questions
 
-    private QuestionData questionData; // the loaded question data
+    private List<QuestionData> questionData; // the loaded question data
 
     void Start()
     {
         // load the question data from the JSON file
-        questionData = JsonUtility.FromJson<QuestionData>(questionDataFile.text);
+        questionData = JsonUtility.FromJson<List<QuestionData>>(questionDataFile.text);
     }
 
-    public List<Question> GetQuestions()
+    public List<Question> GetQuestions(int idx)
     {
-        return questionData.questions;
+        return questionData[idx].questions;
     }
 }

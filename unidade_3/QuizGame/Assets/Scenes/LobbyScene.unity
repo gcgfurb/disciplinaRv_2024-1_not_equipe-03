@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.31401366, g: 0.55090225, b: 0.82295984, a: 1}
+  m_IndirectSpecularColor: {r: 0.31333244, g: 0.5526112, b: 0.8237676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -346,6 +346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 712fcef4f066f4e848d4e5f487d29abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  category: 5
 --- !u!1 &475722514
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,6 +465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 712fcef4f066f4e848d4e5f487d29abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  category: 2
 --- !u!1 &484781768
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,6 +584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 712fcef4f066f4e848d4e5f487d29abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  category: 1
 --- !u!4 &756086973 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8134302614855669011, guid: c4a645c929982ea41a52b5037ee7d94d, type: 3}
@@ -1125,6 +1128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 712fcef4f066f4e848d4e5f487d29abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  category: 0
 --- !u!1 &1231548853
 GameObject:
   m_ObjectHideFlags: 0
@@ -1243,6 +1247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 712fcef4f066f4e848d4e5f487d29abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  category: 0
 --- !u!1 &1548251155
 GameObject:
   m_ObjectHideFlags: 0
@@ -1476,6 +1481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 712fcef4f066f4e848d4e5f487d29abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  category: 3
 --- !u!1 &1815318735
 GameObject:
   m_ObjectHideFlags: 0
@@ -2108,6 +2114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 712fcef4f066f4e848d4e5f487d29abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  category: 4
 --- !u!1 &2046629158
 GameObject:
   m_ObjectHideFlags: 0
