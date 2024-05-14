@@ -1,37 +1,76 @@
-using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = System.Random;
 
 public class QuizManager : MonoBehaviour
 {
     public TextMeshProUGUI questionText; // reference to the question text object
-    public List<TextMeshProUGUI> answerTexts; // list of references to the answer text objects
+    public List<TextMeshProUGUI> optionsTexts = new(); // list of references to the option text objects
     public Button nextButton; // reference to the next button object
 
-    private int currentQuestionIndex; // index of the current question
     private List<Question> questions; // list of questions
+
+    private Question currentQuestion;
+
+    private int corrects;
+
+    private int inCorrects;
+
 
     void Start()
     {
         Debug.Log("Iniciei!");
+        SetQuestionText();
+        SetOptions();
         // load the questions from a data source (e.g. JSON file)
         questions = LoadQuestions();
 
         // display the first question
-        DisplayQuestion(SceneCategory.value);
+        DisplayQuestion();
+    }
+    void SetQuestionText()
+    {
+        GameObject textMeshProObject = GameObject.Find("pergunta");
+        if (textMeshProObject == null) {
+            Debug.LogError("GameObject 'pergunta' not found!");
+            return;
+        }
+        questionText = textMeshProObject.GetComponent<TextMeshProUGUI>();
+    }
+    void SetOptions()
+    {
+        GameObject textMeshProObject;
+        string gameObjectName;
+        for (int i = 1; i <= 4; i++)
+        {
+            gameObjectName = string.Format("opcao{0}", i);
+            textMeshProObject = GameObject.Find(gameObjectName);
+            if (textMeshProObject == null) {
+                Debug.LogError(string.Format("GameObject '{0}' not found!", gameObjectName));
+                continue;
+            }
+            optionsTexts.Add(textMeshProObject.GetComponent<TextMeshProUGUI>());
+        }
     }
 
-    void DisplayQuestion(int index)
+    void DisplayQuestion()
     {
+        Random random = new Random();
+        int randomIndex = random.Next(0, questions.Count);
+        // Load the random question
+        currentQuestion = questions[randomIndex];
+        // Remove the random question from the list
+        questions.RemoveAt(randomIndex);
+        
         // set the question text
-        questionText.text = questions[index].question;
+        questionText.text = currentQuestion.question;
 
         // set the answer texts
-        for (int i = 0; i < answerTexts.Count; i++)
+        for (int i = 0; i < currentQuestion.options.Count; i++)
         {
-            answerTexts[i].text = questions[index].options[i];
+            optionsTexts[i].text = currentQuestion.options[i];
         }
 
         // reset the button selectors
@@ -39,49 +78,41 @@ public class QuizManager : MonoBehaviour
         {
             buttonSelector.SelectAnswer();
         }
-
-        // set the current question index
-        currentQuestionIndex = index;
     }
 
     public void SelectAnswer(int answerIndex)
     {
         // check if the answer is correct
-        bool isCorrect = questions[currentQuestionIndex].answer == answerIndex;
+        bool isCorrect = currentQuestion.answer == answerIndex;
 
         // display feedback to the player
         if (isCorrect)
         {
+            corrects++;
             Debug.Log("Correct!");
         }
         else
         {
+            inCorrects++;
             Debug.Log("Incorrect!");
         }
 
         // move on to the next question or end the quiz
-        if (currentQuestionIndex < questions.Count - 1)
+        if (questions.Count > 0)
         {
-            DisplayQuestion(currentQuestionIndex + 1);
+            DisplayQuestion();
         }
         else
         {
             Debug.Log("Quiz complete!");
-            nextButton.gameObject.SetActive(false);
+            Debug.Log(string.Format("Corrects: {0}", corrects));
+            Debug.Log(string.Format("Incorrects: {0}", inCorrects));
+            // nextButton.gameObject.SetActive(false);
         }
     }
 
     private List<Question> LoadQuestions()
     {
-        QuestionLoader questionLoader = FindObjectOfType<QuestionLoader>();
-        return questionLoader.GetQuestions(0);
+        return QuestionLoader.GetQuestions(SceneCategory.value);
     }
 }
-
-// [System.Serializable]
-// public class Question
-// {
-//     public string question; // the question text
-//     public List<string> answers; // the answer choices
-//     public int correctAnswer; // the index of the correct answer
-// }

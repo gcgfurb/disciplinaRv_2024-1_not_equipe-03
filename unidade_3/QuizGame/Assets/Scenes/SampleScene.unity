@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.31333244, g: 0.5526112, b: 0.8237676, a: 1}
+  m_IndirectSpecularColor: {r: 0.3135233, g: 0.55254257, b: 0.82338715, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -167,7 +167,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c2dc28003bce094b8cb46a6c53a4664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionDataFile: {fileID: 4900000, guid: eab39410a37ea104193d844cde94ed34, type: 3}
 --- !u!1 &62346172
 GameObject:
   m_ObjectHideFlags: 0
@@ -1762,6 +1761,9 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1283752762}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1503989109714432937, guid: dc067c577ec1b854684d789b6e727cc0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 692397223}
     - targetCorrespondingSourceObject: {fileID: 5299454468733366696, guid: dc067c577ec1b854684d789b6e727cc0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 692397220}
@@ -1788,12 +1790,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbd98fe28496f904aba4e655d974bd2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionText: {fileID: 1283752763}
-  answerTexts:
-  - {fileID: 700795283}
-  - {fileID: 1334364560}
-  - {fileID: 1432989577}
-  - {fileID: 2118633991}
+--- !u!114 &692397221 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2077641819426116279, guid: dc067c577ec1b854684d789b6e727cc0, type: 3}
+  m_PrefabInstance: {fileID: 692397217}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &692397222 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1503989109714432937, guid: dc067c577ec1b854684d789b6e727cc0, type: 3}
+  m_PrefabInstance: {fileID: 692397217}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &692397223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692397222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3312305e5beed491fb26aea7a7426fe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionText: {fileID: 692397221}
+  optionsTexts: []
   nextButton: {fileID: 0}
 --- !u!1 &700795281
 GameObject:
@@ -1807,7 +1833,7 @@ GameObject:
   - component: {fileID: 700795284}
   - component: {fileID: 700795283}
   m_Layer: 5
-  m_Name: Text resposta A
+  m_Name: opcao1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2093,7 +2119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6584495d6533196438dd47ddac440d6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  answerIndex: 1
 --- !u!1 &887331898
 GameObject:
   m_ObjectHideFlags: 0
@@ -2947,7 +2972,7 @@ GameObject:
   - component: {fileID: 1283752764}
   - component: {fileID: 1283752763}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: pergunta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2992,7 +3017,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pergunta
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fbb7c6a04be6d8341934b839f24b42e1, type: 2}
   m_sharedMaterial: {fileID: 4687939059374929122, guid: fbb7c6a04be6d8341934b839f24b42e1, type: 2}
@@ -3019,7 +3044,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 18.9
   m_fontSizeBase: 18.9
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3335,7 +3360,7 @@ GameObject:
   - component: {fileID: 1334364561}
   - component: {fileID: 1334364560}
   m_Layer: 5
-  m_Name: Text resposta B
+  m_Name: opcao2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3670,7 +3695,7 @@ GameObject:
   - component: {fileID: 1432989578}
   - component: {fileID: 1432989577}
   m_Layer: 5
-  m_Name: Text resposta C
+  m_Name: opcao3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4627,7 +4652,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1783572214}
-  - component: {fileID: 1783572215}
   m_Layer: 0
   m_Name: Environment
   m_TagString: Untagged
@@ -4653,21 +4677,6 @@ Transform:
   - {fileID: 1438215108}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1783572215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1783572213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3312305e5beed491fb26aea7a7426fe5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  questionText: {fileID: 0}
-  answerTexts: []
-  nextButton: {fileID: 0}
 --- !u!1 &1815318735
 GameObject:
   m_ObjectHideFlags: 0
@@ -6082,7 +6091,7 @@ GameObject:
   - component: {fileID: 2118633992}
   - component: {fileID: 2118633991}
   m_Layer: 5
-  m_Name: Text resposta D
+  m_Name: opcao4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
