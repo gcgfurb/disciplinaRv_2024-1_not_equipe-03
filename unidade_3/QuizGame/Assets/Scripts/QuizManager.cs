@@ -3,12 +3,12 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = System.Random;
+using UnityEngine.SceneManagement;
 
 public class QuizManager : MonoBehaviour
 {
-    public TextMeshProUGUI questionText; // reference to the question text object
-    public List<TextMeshProUGUI> optionsTexts = new(); // list of references to the option text objects
-    public Button nextButton; // reference to the next button object
+    private TextMeshProUGUI questionText; // reference to the question text object
+    private List<TextMeshProUGUI> optionsTexts = new(); // list of references to the option text objects
 
     private List<Question> questions; // list of questions
 
@@ -17,6 +17,8 @@ public class QuizManager : MonoBehaviour
     private int corrects;
 
     private int inCorrects;
+
+    private int indexCurrentQuestion;
 
 
     void Start()
@@ -58,11 +60,9 @@ public class QuizManager : MonoBehaviour
     void DisplayQuestion()
     {
         Random random = new Random();
-        int randomIndex = random.Next(0, questions.Count);
+        indexCurrentQuestion = random.Next(0, questions.Count);
         // Load the random question
-        currentQuestion = questions[randomIndex];
-        // Remove the random question from the list
-        questions.RemoveAt(randomIndex);
+        currentQuestion = questions[indexCurrentQuestion];
         
         // set the question text
         questionText.text = currentQuestion.question;
@@ -82,6 +82,11 @@ public class QuizManager : MonoBehaviour
 
     public void SelectAnswer(int answerIndex)
     {
+        if (questions.Count == 0)
+        {
+            SceneManager.LoadScene("LobbyScene");
+            return;
+        }
         // check if the answer is correct
         bool isCorrect = currentQuestion.answer == answerIndex;
 
@@ -97,6 +102,9 @@ public class QuizManager : MonoBehaviour
             Debug.Log("Incorrect!");
         }
 
+        // Remove the random question from the list
+        questions.RemoveAt(indexCurrentQuestion);
+
         // move on to the next question or end the quiz
         if (questions.Count > 0)
         {
@@ -105,9 +113,7 @@ public class QuizManager : MonoBehaviour
         else
         {
             Debug.Log("Quiz complete!");
-            Debug.Log(string.Format("Corrects: {0}", corrects));
-            Debug.Log(string.Format("Incorrects: {0}", inCorrects));
-            // nextButton.gameObject.SetActive(false);
+            questionText.text = string.Format("Corrects: {0}\nIncorrects: {1}", corrects, inCorrects);
         }
     }
 
