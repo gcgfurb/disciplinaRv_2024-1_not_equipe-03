@@ -6,190 +6,190 @@
         {
           "question": "Em que ano ocorreu a Revolução Francesa?",
           "options": [
-            "A) 1776",
-            "B) 1789",
-            "C) 1815",
-            "D) 1848"
+            "1815",
+            "1789",
+            "1776",
+            "1848"
           ],
           "answer": 1
         },
         {
           "question": "Quem foi o primeiro presidente dos Estados Unidos?",
           "options": [
-            "A) Thomas Jefferson",
-            "B) Abraham Lincoln",
-            "C) George Washington",
-            "D) John Adams"
+            "George Washington",
+            "Abraham Lincoln",
+            "Thomas Jefferson",
+            "John Adams"
           ],
-          "answer": 2
+          "answer": 0
         },
         {
           "question": "Qual foi a civilização que construiu as pirâmides de Gizé?",
           "options": [
-            "A) Egípcia",
-            "B) Maia",
-            "C) Asteca",
-            "D) Inca"
+            "Maia",
+            "Asteca",
+            "Egípcia",
+            "Inca"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "question": "Qual foi o ano em que ocorreu a Revolução Russa?",
           "options": [
-            "A) 1905",
-            "B) 1917",
-            "C) 1923",
-            "D) 1945"
+            "1923",
+            "1945",
+            "1905",
+            "1917"
           ],
-          "answer": 1
+          "answer": 3
         },
         {
           "question": "Qual foi o evento que marcou o início da Primeira Guerra Mundial?",
           "options": [
-            "A) Assassinato do Arquiduque Franz Ferdinand",
-            "B) Queda do Império Otomano",
-            "C) Revolução Bolchevique",
-            "D) Tratado de Versalhes"
+            "Revolução Bolchevique",
+            "Queda do Império Otomano",
+            "Tratado de Versalhes",
+            "Assassinato do Arquiduque Franz Ferdinand"
           ],
-          "answer": 0
+          "answer": 3
         },
         {
           "question": "Quem foi o líder da Revolução Cubana em 1959?",
           "options": [
-            "A) Fidel Castro",
-            "B) Che Guevara",
-            "C) Fulgencio Batista",
-            "D) Hugo Chávez"
+            "Fulgencio Batista",
+            "Fidel Castro",
+            "Che Guevara",
+            "Hugo Chávez"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "question": "Qual era o nome do navio que Cristóvão Colombo navegou em sua primeira viagem à América em 1492?",
           "options": [
-            "A) Santa Maria",
-            "B) Nina",
-            "C) Pinta",
-            "D) Santa Clara"
+            "Nina",
+            "Pinta",
+            "Santa Maria",
+            "Santa Clara"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "question": "Quem foi o imperador romano que promulgou o Édito de Milão, concedendo liberdade religiosa aos cristãos em 313 d.C.?",
           "options": [
-            "A) Júlio César",
-            "B) Constantino",
-            "C) Augusto",
-            "D) Nero"
+            "Augusto",
+            "Constantino",
+            "Júlio César",
+            "Nero"
           ],
           "answer": 1
         },
         {
           "question": "Qual foi o período conhecido como \"Idade das Trevas\" na Europa?",
           "options": [
-            "A) Idade Média",
-            "B) Renascimento",
-            "C) Idade Antiga",
-            "D) Era Viking"
+            "Idade Média",
+            "Era Viking",
+            "Renascimento",
+            "Idade Antiga"
           ],
           "answer": 0
         },
         {
           "question": "Qual foi o evento que desencadeou a entrada dos Estados Unidos na Segunda Guerra Mundial?",
           "options": [
-            "A) Ataque a Pearl Harbor",
-            "B) Bombardeio de Hiroshima e Nagasaki",
-            "C) Invasão da Polônia",
-            "D) Batalha de Stalingrado"
+            "Bombardeio de Hiroshima e Nagasaki",
+            "Batalha de Stalingrado",
+            "Invasão da Polônia",
+            "Ataque a Pearl Harbor"
           ],
-          "answer": 0
+          "answer": 3
         },
         {
           "question": "Quem foi o líder do movimento de independência da Índia contra o domínio britânico?",
           "options": [
-            "A) Mahatma Gandhi",
-            "B) Jawaharlal Nehru",
-            "C) Indira Gandhi",
-            "D) Rajiv Gandhi"
-          ],
-          "answer": 0
-        },
-        {
-          "question": "Qual foi a primeira dinastia a governar a China?",
-          "options": [
-            "A) Shang",
-            "B) Zhou",
-            "C) Qin",
-            "D) Han"
-          ],
-          "answer": 0
-        },
-        {
-          "question": "Quem foi o primeiro presidente do Brasil?",
-          "options": [
-            "A) Getúlio Vargas",
-            "B) Juscelino Kubitschek",
-            "C) Marechal Deodoro da Fonseca",
-            "D) Dom Pedro II"
-          ],
-          "answer": 2
-        },
-        {
-          "question": "Quem foi o último czar da Rússia antes da Revolução Russa?",
-          "options": [
-            "A) Nicolau II",
-            "B) Alexandre II",
-            "C) Ivan IV",
-            "D) Pedro, o Grande"
-          ],
-          "answer": 0
-        },
-        {
-          "question": "Qual foi o evento que marcou o início da Revolução Francesa em 1789?",
-          "options": [
-            "A) Tomada da Bastilha",
-            "B) Execução de Luís XVI",
-            "C) Noite das Facas Longas",
-            "D) Campanha de Napoleão na Itália"
-          ],
-          "answer": 0
-        },
-        {
-          "question": "Quem foi o líder político e militar da Alemanha nazista durante a Segunda Guerra Mundial?",
-          "options": [
-            "A) Adolf Hitler",
-            "B) Benito Mussolini",
-            "C) Joseph Stalin",
-            "D) Winston Churchill"
-          ],
-          "answer": 0
-        },
-        {
-          "question": "Qual foi o nome do imperador romano que legalizou o cristianismo no Império Romano?",
-          "options": [
-            "A) Constantino",
-            "B) Augusto",
-            "C) Nero",
-            "D) Trajano"
-          ],
-          "answer": 0
-        },
-        {
-          "question": "Qual foi o evento que marcou o fim da Guerra Fria?",
-          "options": [
-            "A) Queda do Muro de Berlim",
-            "B) Dissolução da União Soviética",
-            "C) Crise dos Mísseis em Cuba",
-            "D) Revolução de Veludo na Tchecoslováquia"
+            "Jawaharlal Nehru",
+            "Mahatma Gandhi",
+            "Indira Gandhi",
+            "Rajiv Gandhi"
           ],
           "answer": 1
         },
         {
+          "question": "Qual foi a primeira dinastia a governar a China?",
+          "options": [
+            "Zhou",
+            "Shang",
+            "Qin",
+            "Han"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Quem foi o primeiro presidente do Brasil?",
+          "options": [
+            "Marechal Deodoro da Fonseca",
+            "Dom Pedro II",
+            "Getúlio Vargas",
+            "Juscelino Kubitschek"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Quem foi o último czar da Rússia antes da Revolução Russa?",
+          "options": [
+            "Alexandre II",
+            "Pedro, o Grande",
+            "Ivan IV",
+            "Nicolau II"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Qual foi o evento que marcou o início da Revolução Francesa em 1789?",
+          "options": [
+            "Noite das Facas Longas",
+            "Tomada da Bastilha",
+            "Campanha de Napoleão na Itália",
+            "Execução de Luís XVI"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Quem foi o líder político e militar da Alemanha nazista durante a Segunda Guerra Mundial?",
+          "options": [
+            "Winston Churchill",
+            "Joseph Stalin",
+            "Benito Mussolini",
+            "Adolf Hitler"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Qual foi o nome do imperador romano que legalizou o cristianismo no Império Romano?",
+          "options": [
+            "Augusto",
+            "Constantino",
+            "Nero",
+            "Trajano"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Qual foi o evento que marcou o fim da Guerra Fria?",
+          "options": [
+            "Dissolução da União Soviética",
+            "Queda do Muro de Berlim",
+            "Crise dos Mísseis em Cuba",
+            "Revolução de Veludo na Tchecoslováquia"
+          ],
+          "answer": 0
+        },
+        {
           "question": "Quem escreveu \"Dom Quixote\"?",
           "options": [
-            "A) William Shakespeare",
-            "B) Dante Alighieri",
-            "C) Miguel de Cervantes",
-            "D) Geoffrey Chaucer"
+            "William Shakespeare",
+            "Geoffrey Chaucer",
+            "Miguel de Cervantes",
+            "Dante Alighieri"
           ],
           "answer": 2
         }
@@ -201,202 +201,202 @@
         {
           "question": "Qual é o rio mais longo do mundo?",
           "options": [
-            "A) Nilo",
-            "B) Amazonas",
-            "C) Yangtze",
-            "D) Mississipi"
+            "Mississipi",
+            "Nilo",
+            "Amazonas",
+            "Yangtze"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
           "question": "Qual é o maior continente do mundo em área?",
           "options": [
-            "A) Europa",
-            "B) África",
-            "C) Ásia",
-            "D) América do Sul"
+            "América do Sul",
+            "África",
+            "Ásia",
+            "Europa"
           ],
           "answer": 2
         },
         {
           "question": "Qual é o país com a maior população do mundo?",
           "options": [
-            "A) Rússia",
-            "B) Estados Unidos",
-            "C) China",
-            "D) Índia"
+            "Rússia",
+            "Índia",
+            "China",
+            "Estados Unidos"
           ],
           "answer": 2
         },
         {
           "question": "Qual é o ponto mais alto da Terra?",
           "options": [
-            "A) Everest",
-            "B) K2",
-            "C) Kangchenjunga",
-            "D) Lhotse"
+            "Kangchenjunga",
+            "Lhotse",
+            "Everest",
+            "K2"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "question": "Qual é o país mais populoso da África?",
           "options": [
-            "A) Nigéria",
-            "B) Etiópia",
-            "C) Egito",
-            "D) República Democrática do Congo"
+            "Egito",
+            "Etiópia",
+            "Nigéria",
+            "República Democrática do Congo"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "question": "Qual é o maior oceano do mundo em área?",
           "options": [
-            "A) Oceano Pacífico",
-            "B) Oceano Atlântico",
-            "C) Oceano Índico",
-            "D) Oceano Antártico"
-          ],
-          "answer": 0
-        },
-        {
-          "question": "Qual é o país com a maior área territorial do mundo?",
-          "options": [
-            "A) Rússia",
-            "B) Canadá",
-            "C) China",
-            "D) Estados Unidos"
-          ],
-          "answer": 0
-        },
-        {
-          "question": "Qual é a capital da Austrália?",
-          "options": [
-            "A) Sydney",
-            "B) Melbourne",
-            "C) Brisbane",
-            "D) Canberra"
+            "Oceano Índico",
+            "Oceano Atlântico",
+            "Oceano Antártico",
+            "Oceano Pacífico"
           ],
           "answer": 3
         },
         {
+          "question": "Qual é o país com a maior área territorial do mundo?",
+          "options": [
+            "Canadá",
+            "Estados Unidos",
+            "Rússia",
+            "China"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Qual é a capital da Austrália?",
+          "options": [
+            "Sydney",
+            "Melbourne",
+            "Canberra",
+            "Brisbane"
+          ],
+          "answer": 2
+        },
+        {
           "question": "Qual é o maior deserto do mundo?",
           "options": [
-            "A) Deserto do Saara",
-            "B) Deserto da Arábia",
-            "C) Deserto de Gobi",
-            "D) Deserto do Atacama"
+            "Deserto da Arábia",
+            "Deserto do Atacama",
+            "Deserto do Saara",
+            "Deserto de Gobi"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "question": "Qual é o rio mais longo do mundo em extensão total?",
           "options": [
-            "A) Rio Amazonas",
-            "B) Rio Nilo",
-            "C) Rio Yangtze",
-            "D) Rio Mississippi"
+            "Rio Nilo",
+            "Rio Mississippi",
+            "Rio Amazonas",
+            "Rio Yangtze"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "question": "Qual é o nome do maior lago de água doce do mundo em volume?",
           "options": [
-            "A) Lago Vitória",
-            "B) Lago Baikal",
-            "C) Lago Superior",
-            "D) Lago Titicaca"
+            "Lago Baikal",
+            "Lago Superior",
+            "Lago Vitória",
+            "Lago Titicaca"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "question": "Qual é o menor país do mundo em área territorial?",
           "options": [
-            "A) Mônaco",
-            "B) Vaticano",
-            "C) Nauru",
-            "D) Malta"
+            "Malta",
+            "Mônaco",
+            "Vaticano",
+            "Nauru"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
           "question": "Quais são os dois países que compartilham a Península Ibérica?",
           "options": [
-            "A) Espanha e França",
-            "B) Portugal e Espanha",
-            "C) Portugal e França",
-            "D) Espanha e Itália"
+            "Espanha e França",
+            "Portugal e Espanha",
+            "Portugal e França",
+            "Espanha e Itália"
           ],
           "answer": 1
         },
         {
           "question": "Qual é o país mais populoso da América do Sul?",
           "options": [
-            "A) Brasil",
-            "B) Argentina",
-            "C) Colômbia",
-            "D) Peru"
+            "Brasil",
+            "Colômbia",
+            "Peru",
+            "Argentina"
           ],
           "answer": 0
         },
         {
           "question": "Qual é o maior arquipélago do mundo?",
           "options": [
-            "A) Havaí",
-            "B) Filipinas",
-            "C) Indonésia",
-            "D) Japão"
+            "Indonésia",
+            "Filipinas",
+            "Japão",
+            "Havaí"
           ],
-          "answer": 2
+          "answer": 0
         },
         {
           "question": "Qual é o nome do ponto mais baixo da superfície terrestre?",
           "options": [
-            "A) Mar Morto",
-            "B) Vale da Morte",
-            "C) Fossa das Marianas",
-            "D) Lago Assal"
-          ],
-          "answer": 0
-        },
-        {
-          "question": "Qual é o nome da maior cordilheira do mundo em extensão?",
-          "options": [
-            "A) Cordilheira dos Andes",
-            "B) Cordilheira do Himalaia",
-            "C) Cordilheira dos Alpes",
-            "D) Cordilheira dos Apalaches"
-          ],
-          "answer": 0
-        },
-        {
-          "question": "Qual é o nome do maior recife de coral do mundo?",
-          "options": [
-            "A) Grande Barreira de Coral",
-            "B) Recife de Belize",
-            "C) Recife de Tubbataha",
-            "D) Recife de Red Sea"
-          ],
-          "answer": 0
-        },
-        {
-          "question": "Qual é o país mais ao norte do mundo?",
-          "options": [
-            "A) Rússia",
-            "B) Canadá",
-            "C) Noruega",
-            "D) Groenlândia"
+            "Lago Assal",
+            "Fossa das Marianas",
+            "Vale da Morte",
+            "Mar Morto"
           ],
           "answer": 3
         },
         {
+          "question": "Qual é o nome da maior cordilheira do mundo em extensão?",
+          "options": [
+            "Cordilheira dos Apalaches",
+            "Cordilheira do Himalaia",
+            "Cordilheira dos Alpes",
+            "Cordilheira dos Andes"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Qual é o nome do maior recife de coral do mundo?",
+          "options": [
+            "Recife de Tubbataha",
+            "Recife de Belize",
+            "Recife de Red Sea",
+            "Grande Barreira de Coral"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Qual é o país mais ao norte do mundo?",
+          "options": [
+            "Noruega",
+            "Rússia",
+            "Groenlândia",
+            "Canadá"
+          ],
+          "answer": 2
+        },
+        {
           "question": "Qual é o país mais ao sul do mundo?",
           "options": [
-            "A) Argentina",
-            "B) Chile",
-            "C) Austrália",
-            "D) África do Sul"
+            "África do Sul",
+            "Austrália",
+            "Argentina",
+            "Chile"
           ],
-          "answer": 0
+          "answer": 2
         }
       ]
     },
@@ -406,200 +406,200 @@
         {
           "question": "Quem é conhecido como o Rei do Pop?",
           "options": [
-            "A) Michael Jackson",
-            "B) Elvis Presley",
-            "C) Madonna",
-            "D) Prince"
+            "Michael Jackson",
+            "Madonna",
+            "Prince",
+            "Elvis Presley"
           ],
           "answer": 0
         },
         {
           "question": "Qual é o álbum mais vendido de todos os tempos?",
           "options": [
-            "A) Thriller - Michael Jackson",
-            "B) Dark Side of the Moon - Pink Floyd",
-            "C) Back in Black - AC/DC",
-            "D) The Beatles (White Albu - The Beatles"
-          ],
-          "answer": 0
-        },
-        {
-          "question": "Qual é o nome da cantora britânica que lançou o álbum \"21\" em 2011?",
-          "options": [
-            "A) Adele",
-            "B) Taylor Swift",
-            "C) Rihanna",
-            "D) Beyoncé"
-          ],
-          "answer": 0
-        },
-        {
-          "question": "Qual é o nome do grupo musical formado pelos membros John Lennon, Paul McCartney, George Harrison e Ringo Starr?",
-          "options": [
-            "A) The Rolling Stones",
-            "B) The Beatles",
-            "C) Led Zeppelin",
-            "D) Queen"
+            "Back in Black - AC/DC",
+            "Thriller - Michael Jackson",
+            "Dark Side of the Moon - Pink Floyd",
+            "The Beatles (White Albu - The Beatles"
           ],
           "answer": 1
         },
         {
-          "question": "Qual é o nome da primeira música lançada pelo grupo Queen?",
+          "question": "Qual é o nome da cantora britânica que lançou o álbum \"21\" em 2011?",
           "options": [
-            "A) Bohemian Rhapsody",
-            "B) We Will Rock You",
-            "C) Killer Queen",
-            "D) Keep Yourself Alive"
+            "Rihanna",
+            "Taylor Swift",
+            "Adele",
+            "Beyoncé"
           ],
-          "answer": 3
+          "answer": 2
         },
         {
-          "question": "Quem é o vocalista da banda britânica Rolling Stones?",
+          "question": "Qual é o nome do grupo musical formado pelos membros John Lennon, Paul McCartney, George Harrison e Ringo Starr?",
           "options": [
-            "A) Mick Jagger",
-            "B) Keith Richards",
-            "C) Roger Waters",
-            "D) Jimmy Page"
+            "The Rolling Stones",
+            "Queen",
+            "The Beatles",
+            "Led Zeppelin"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Qual é o nome da primeira música lançada pelo grupo Queen?",
+          "options": [
+            "Keep Yourself Alive",
+            "We Will Rock You",
+            "Killer Queen",
+            "Bohemian Rhapsody"
           ],
           "answer": 0
         },
         {
+          "question": "Quem é o vocalista da banda britânica Rolling Stones?",
+          "options": [
+            "Jimmy Page",
+            "Mick Jagger",
+            "Keith Richards",
+            "Roger Waters"
+          ],
+          "answer": 1
+        },
+        {
           "question": "Qual é o nome da cantora conhecida como \"Rainha da Soul\"?",
           "options": [
-            "A) Aretha Franklin",
-            "B) Whitney Houston",
-            "C) Beyoncé",
-            "D) Diana Ross"
+            "Aretha Franklin",
+            "Beyoncé",
+            "Diana Ross",
+            "Whitney Houston"
           ],
           "answer": 0
         },
         {
           "question": "Qual é o álbum mais vendido de todos os tempos?",
           "options": [
-            "A) Thriller - Michael Jackson",
-            "B) The Dark Side of the Moon - Pink Floyd",
-            "C) Back in Black - AC/DC",
-            "D) Sgt. Pepper\u0027s Lonely Hearts Club Band - The Beatles"
+            "Sgt. Pepper\u0027s Lonely Hearts Club Band - The Beatles",
+            "Thriller - Michael Jackson",
+            "Back in Black - AC/DC",
+            "The Dark Side of the Moon - Pink Floyd"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "question": "Quem é o guitarrista da banda de rock Guns N\u0027 Roses?",
           "options": [
-            "A) Slash",
-            "B) Jimmy Page",
-            "C) Eddie Van Halen",
-            "D) Eric Clapton"
+            "Slash",
+            "Eddie Van Halen",
+            "Eric Clapton",
+            "Jimmy Page"
           ],
           "answer": 0
         },
         {
           "question": "Qual é o nome do álbum icônico da banda Pink Floyd que apresenta a música \"Comfortably Numb\"?",
           "options": [
-            "A) Dark Side of the Moon",
-            "B) Wish You Were Here",
-            "C) The Wall",
-            "D) Animals"
+            "The Wall",
+            "Wish You Were Here",
+            "Dark Side of the Moon",
+            "Animals"
           ],
-          "answer": 2
+          "answer": 0
         },
         {
           "question": "Qual é o título do primeiro álbum solo lançado por Beyoncé?",
           "options": [
-            "A) Lemonade",
-            "B) B\u0027Day",
-            "C) Dangerously in Love",
-            "D) Beyoncé"
+            "B\u0027Day",
+            "Dangerously in Love",
+            "Beyoncé",
+            "Lemonade"
           ],
-          "answer": 2
+          "answer": 1
         },
         {
           "question": "Quem é o rapper americano que lançou o álbum \"The Marshall Mathers LP\"?",
           "options": [
-            "A) Tupac Shakur",
-            "B) Jay-Z",
-            "C) Eminem",
-            "D) Kanye West"
+            "Tupac Shakur",
+            "Kanye West",
+            "Eminem",
+            "Jay-Z"
           ],
           "answer": 2
         },
         {
           "question": "Qual é o nome da banda de rock formada pelos irmãos Liam e Noel Gallagher?",
           "options": [
-            "A) Blur",
-            "B) Oasis",
-            "C) Radiohead",
-            "D) Arctic Monkeys"
+            "Blur",
+            "Oasis",
+            "Arctic Monkeys",
+            "Radiohead"
           ],
           "answer": 1
         },
         {
           "question": "Qual é o título da canção de Michael Jackson lançada em 1982, que se tornou o álbum mais vendido de todos os tempos?",
           "options": [
-            "A) Thriller",
-            "B) Beat It",
-            "C) Billie Jean",
-            "D) Smooth Criminal"
+            "Beat It",
+            "Billie Jean",
+            "Smooth Criminal",
+            "Thriller"
           ],
-          "answer": 0
+          "answer": 3
         },
         {
           "question": "Qual é o nome do grupo de rap que lançou o álbum \"Straight Outta Compton\" em 1988?",
           "options": [
-            "A) Public Enemy",
-            "B) N.W.A (Niggaz Wit Attitude",
-            "C) Wu-Tang Clan",
-            "D) Run-D.M.C."
+            "Wu-Tang Clan",
+            "Run-D.M.C.",
+            "N.W.A (Niggaz Wit Attitude",
+            "Public Enemy"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
           "question": "Quem é o vocalista da banda britânica de rock alternativo Radiohead?",
           "options": [
-            "A) Thom Yorke",
-            "B) Jonny Greenwood",
-            "C) Ed O\u0027Brien",
-            "D) Colin Greenwood"
+            "Ed O\u0027Brien",
+            "Thom Yorke",
+            "Colin Greenwood",
+            "Jonny Greenwood"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "question": "Qual é o nome da cantora pop que lançou o álbum \"1989\" em 2014?",
           "options": [
-            "A) Taylor Swift",
-            "B) Katy Perry",
-            "C) Ariana Grande",
-            "D) Rihanna"
+            "Katy Perry",
+            "Ariana Grande",
+            "Taylor Swift",
+            "Rihanna"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "question": "Qual é o nome do famoso festival de música que ocorre anualmente em Indio, Califórnia?",
           "options": [
-            "A) Coachella",
-            "B) Lollapalooza",
-            "C) Glastonbury",
-            "D) Burning Man"
+            "Coachella",
+            "Lollapalooza",
+            "Burning Man",
+            "Glastonbury"
           ],
           "answer": 0
         },
         {
           "question": "Quem é o líder da banda de rock britânica U2?",
           "options": [
-            "A) Bono",
-            "B) The Edge",
-            "C) Adam Clayton",
-            "D) Larry Mullen Jr."
+            "The Edge",
+            "Bono",
+            "Adam Clayton",
+            "Larry Mullen Jr."
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "question": "Qual é o nome do álbum de estreia da cantora Adele, lançado em 2008?",
           "options": [
-            "A) 21",
-            "B) 25",
-            "C) 19",
-            "D) Hello"
+            "25",
+            "Hello",
+            "19",
+            "21"
           ],
           "answer": 2
         }
@@ -611,202 +611,202 @@
         {
           "question": "Quem escreveu \"Dom Quixote\"?",
           "options": [
-            "A) William Shakespeare",
-            "B) Dante Alighieri",
-            "C) Miguel de Cervantes",
-            "D) Geoffrey Chaucer"
+            "William Shakespeare",
+            "Dante Alighieri",
+            "Geoffrey Chaucer",
+            "Miguel de Cervantes"
           ],
-          "answer": 2
+          "answer": 3
         },
         {
           "question": "Qual é o título do primeiro livro da série \"Harry Potter\"?",
           "options": [
-            "A) Harry Potter e a Pedra Filosofal",
-            "B) Harry Potter e a Câmara Secreta",
-            "C) Harry Potter e o Prisioneiro de Azkaban",
-            "D) Harry Potter e o Cálice de Fogo"
+            "Harry Potter e o Cálice de Fogo",
+            "Harry Potter e a Câmara Secreta",
+            "Harry Potter e a Pedra Filosofal",
+            "Harry Potter e o Prisioneiro de Azkaban"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "question": "Qual é o autor de \"O Pequeno Príncipe\"?",
           "options": [
-            "A) Antoine de Saint-Exupéry",
-            "B) J.R.R. Tolkien",
-            "C) C.S. Lewis",
-            "D) Roald Dahl"
+            "J.R.R. Tolkien",
+            "C.S. Lewis",
+            "Antoine de Saint-Exupéry",
+            "Roald Dahl"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "question": "Qual é o autor da série de livros \"As Crônicas de Gelo e Fogo\", que inspirou a série de TV \"Game of Thrones\"?",
           "options": [
-            "A) J.R.R. Tolkien",
-            "B) George R.R. Martin",
-            "C) Stephen King",
-            "D) J.K. Rowling"
+            "J.R.R. Tolkien",
+            "George R.R. Martin",
+            "Stephen King",
+            "J.K. Rowling"
           ],
           "answer": 1
         },
         {
           "question": "Quem escreveu o romance \"Orgulho e Preconceito\"?",
           "options": [
-            "A) Charlotte Brontë",
-            "B) Jane Austen",
-            "C) Emily Brontë",
-            "D) Louisa May Alcott"
-          ],
-          "answer": 1
-        },
-        {
-          "question": "Qual é o nome da trilogia de fantasia escrita por Philip Pullman, cujo primeiro livro é \"A Bússola de Ouro\"?",
-          "options": [
-            "A) Trilogia da Escuridão",
-            "B) Trilogia da Aurora",
-            "C) Trilogia da Luz",
-            "D) Trilogia Fronteiras do Universo"
-          ],
-          "answer": 3
-        },
-        {
-          "question": "Qual é o título do livro que deu origem ao filme \"O Silêncio dos Inocentes\"?",
-          "options": [
-            "A) O Colecionador de Ossos",
-            "B) Hannibal",
-            "C) O Silêncio dos Inocentes",
-            "D) Dragão Vermelho"
+            "Emily Brontë",
+            "Louisa May Alcott",
+            "Jane Austen",
+            "Charlotte Brontë"
           ],
           "answer": 2
         },
         {
+          "question": "Qual é o nome da trilogia de fantasia escrita por Philip Pullman, cujo primeiro livro é \"A Bússola de Ouro\"?",
+          "options": [
+            "Trilogia Fronteiras do Universo",
+            "Trilogia da Escuridão",
+            "Trilogia da Luz",
+            "Trilogia da Aurora"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Qual é o título do livro que deu origem ao filme \"O Silêncio dos Inocentes\"?",
+          "options": [
+            "O Silêncio dos Inocentes",
+            "Dragão Vermelho",
+            "Hannibal",
+            "O Colecionador de Ossos"
+          ],
+          "answer": 0
+        },
+        {
           "question": "Quem escreveu a série de livros \"Harry Potter\"?",
           "options": [
-            "A) J.R.R. Tolkien",
-            "B) C.S. Lewis",
-            "C) J.K. Rowling",
-            "D) George R.R. Martin"
+            "C.S. Lewis",
+            "J.R.R. Tolkien",
+            "J.K. Rowling",
+            "George R.R. Martin"
           ],
           "answer": 2
         },
         {
           "question": "Qual é o nome da protagonista de \"O Diário de Anne Frank\"?",
           "options": [
-            "A) Anne Johnson",
-            "B) Anne Smith",
-            "C) Anne Taylor",
-            "D) Anne Frank"
+            "Anne Smith",
+            "Anne Taylor",
+            "Anne Johnson",
+            "Anne Frank"
           ],
           "answer": 3
         },
         {
           "question": "Quem é o autor do livro \"1984\", uma distopia futurista que retrata um governo totalitário?",
           "options": [
-            "A) Aldous Huxley",
-            "B) George Orwell",
-            "C) Ray Bradbury",
-            "D) Isaac Asimov"
+            "Ray Bradbury",
+            "Aldous Huxley",
+            "Isaac Asimov",
+            "George Orwell"
           ],
-          "answer": 1
+          "answer": 3
         },
         {
           "question": "Qual é o nome do protagonista de \"Dom Casmurro\", obra de Machado de Assis?",
           "options": [
-            "A) Bentinho",
-            "B) Capitu",
-            "C) Escobar",
-            "D) Quincas Borba"
+            "Quincas Borba",
+            "Capitu",
+            "Bentinho",
+            "Escobar"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "question": "Qual é o autor da famosa peça de teatro \"Hamlet\"?",
           "options": [
-            "A) William Shakespeare",
-            "B) Christopher Marlowe",
-            "C) Thomas Kyd",
-            "D) Ben Jonson"
+            "Christopher Marlowe",
+            "Thomas Kyd",
+            "Ben Jonson",
+            "William Shakespeare"
           ],
-          "answer": 0
+          "answer": 3
         },
         {
           "question": "Qual é o título do primeiro livro da série \"Crônicas de Nárnia\", escrito por C.S. Lewis?",
           "options": [
-            "A) O Leão, a Feiticeira e o Guarda-Roupa",
-            "B) O Sobrinho do Mago",
-            "C) A Cadeira de Prata",
-            "D) A Última Batalha"
+            "A Última Batalha",
+            "A Cadeira de Prata",
+            "O Sobrinho do Mago",
+            "O Leão, a Feiticeira e o Guarda-Roupa"
           ],
-          "answer": 0
+          "answer": 3
         },
         {
           "question": "Quem é o autor do romance \"Crime e Castigo\"?",
           "options": [
-            "A) Fiódor Dostoiévski",
-            "B) Lev Tolstói",
-            "C) Nikolai Gógol",
-            "D) Boris Pasternak"
+            "Boris Pasternak",
+            "Lev Tolstói",
+            "Nikolai Gógol",
+            "Fiódor Dostoiévski"
           ],
-          "answer": 0
+          "answer": 3
         },
         {
           "question": "Qual é o nome da protagonista de \"Os Miseráveis\", de Victor Hugo?",
           "options": [
-            "A) Cosette",
-            "B) Fantine",
-            "C) Eponine",
-            "D) Jean Valjean"
+            "Cosette",
+            "Eponine",
+            "Fantine",
+            "Jean Valjean"
           ],
           "answer": 3
         },
         {
           "question": "Quem escreveu a obra \"O Apanhador no Campo de Centeio\"?",
           "options": [
-            "A) J.D. Salinger",
-            "B) Ernest Hemingway",
-            "C) F. Scott Fitzgerald",
-            "D) John Steinbeck"
+            "F. Scott Fitzgerald",
+            "John Steinbeck",
+            "J.D. Salinger",
+            "Ernest Hemingway"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "question": "Qual é o autor do livro \"Moby Dick\"?",
           "options": [
-            "A) Herman Melville",
-            "B) Edgar Allan Poe",
-            "C) Nathaniel Hawthorne",
-            "D) Mark Twain"
+            "Nathaniel Hawthorne",
+            "Mark Twain",
+            "Herman Melville",
+            "Edgar Allan Poe"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "question": "Qual é o título do primeiro livro da série \"Percy Jackson e os Olimpianos\"?",
           "options": [
-            "A) A Maldição do Titã",
-            "B) O Ladrão de Raios",
-            "C) O Último Olimpiano",
-            "D) O Mar de Monstros"
+            "O Mar de Monstros",
+            "A Maldição do Titã",
+            "O Ladrão de Raios",
+            "O Último Olimpiano"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
           "question": "Quem escreveu \"A Metamorfose\", uma novela que conta a história de Gregor Samsa, que acorda certa manhã transformado em um inseto?",
           "options": [
-            "A) Franz Kafka",
-            "B) Gabriel García Márquez",
-            "C) Milan Kundera",
-            "D) Italo Calvino"
+            "Italo Calvino",
+            "Gabriel García Márquez",
+            "Franz Kafka",
+            "Milan Kundera"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "question": "Qual é o título do livro de Gabriel García Márquez que narra a história de amor entre Florentino Ariza e Fermina Daza?",
           "options": [
-            "A) Cem Anos de Solidão",
-            "B) O Amor nos Tempos do Cólera",
-            "C) Crônica de uma Morte Anunciada",
-            "D) O Outono do Patriarca"
+            "Crônica de uma Morte Anunciada",
+            "O Outono do Patriarca",
+            "O Amor nos Tempos do Cólera",
+            "Cem Anos de Solidão"
           ],
-          "answer": 1
+          "answer": 2
         }
       ]
     },
@@ -816,202 +816,202 @@
         {
           "question": "Qual é o esporte mais popular do mundo?",
           "options": [
-            "A) Futebol (Socce",
-            "B) Basquete",
-            "C) Críquete",
-            "D) Tênis"
+            "Basquete",
+            "Críquete",
+            "Tênis",
+            "Futebol (Socce"
           ],
-          "answer": 0
+          "answer": 3
         },
         {
           "question": "Quantos jogadores compõem uma equipe de vôlei de quadra?",
           "options": [
-            "A) 5",
-            "B) 6",
-            "C) 7",
-            "D) 9"
-          ],
-          "answer": 1
-        },
-        {
-          "question": "Em que país nasceu o esporte do judô?",
-          "options": [
-            "A) China",
-            "B) Japão",
-            "C) Coreia do Sul",
-            "D) Tailândia"
-          ],
-          "answer": 1
-        },
-        {
-          "question": "Qual jogador de basquete é conhecido como \"King James\"?",
-          "options": [
-            "A) Kobe Bryant",
-            "B) LeBron James",
-            "C) Michael Jordan",
-            "D) Magic Johnson"
-          ],
-          "answer": 1
-        },
-        {
-          "question": "Em que cidade ocorreram os primeiros Jogos Olímpicos da era moderna, em 1896?",
-          "options": [
-            "A) Paris",
-            "B) Atenas",
-            "C) Roma",
-            "D) Londres"
-          ],
-          "answer": 1
-        },
-        {
-          "question": "Qual é o esporte praticado na Copa Davis?",
-          "options": [
-            "A) Tênis",
-            "B) Golfe",
-            "C) Rugby",
-            "D) Vela"
-          ],
-          "answer": 0
-        },
-        {
-          "question": "Quantos jogadores compõem uma equipe de rugby em campo durante uma partida?",
-          "options": [
-            "A) 11",
-            "B) 13",
-            "C) 15",
-            "D) 17"
+            "9",
+            "5",
+            "6",
+            "7"
           ],
           "answer": 2
         },
         {
-          "question": "Qual país venceu a Copa do Mundo de Futebol Feminino em 2019?",
+          "question": "Em que país nasceu o esporte do judô?",
           "options": [
-            "A) Alemanha",
-            "B) Estados Unidos",
-            "C) Brasil",
-            "D) Suécia"
+            "Japão",
+            "China",
+            "Tailândia",
+            "Coreia do Sul"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Qual jogador de basquete é conhecido como \"King James\"?",
+          "options": [
+            "Michael Jordan",
+            "Magic Johnson",
+            "LeBron James",
+            "Kobe Bryant"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Em que cidade ocorreram os primeiros Jogos Olímpicos da era moderna, em 1896?",
+          "options": [
+            "Atenas",
+            "Paris",
+            "Londres",
+            "Roma"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Qual é o esporte praticado na Copa Davis?",
+          "options": [
+            "Golfe",
+            "Rugby",
+            "Tênis",
+            "Vela"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Quantos jogadores compõem uma equipe de rugby em campo durante uma partida?",
+          "options": [
+            "11",
+            "15",
+            "13",
+            "17"
           ],
           "answer": 1
+        },
+        {
+          "question": "Qual país venceu a Copa do Mundo de Futebol Feminino em 2019?",
+          "options": [
+            "Estados Unidos",
+            "Brasil",
+            "Alemanha",
+            "Suécia"
+          ],
+          "answer": 0
         },
         {
           "question": "Qual é o nome do evento esportivo que combina corrida, natação e ciclismo?",
           "options": [
-            "A) Ironman",
-            "B) Triatlo",
-            "C) Pentatlo",
-            "D) Decatlo"
+            "Pentatlo",
+            "Decatlo",
+            "Triatlo",
+            "Ironman"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
           "question": "Quem é considerado o maior jogador de tênis de todos os tempos?",
           "options": [
-            "A) Rafael Nadal",
-            "B) Roger Federer",
-            "C) Novak Djokovic",
-            "D) Pete Sampras"
+            "Rafael Nadal",
+            "Novak Djokovic",
+            "Roger Federer",
+            "Pete Sampras"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
           "question": "Qual é o esporte nacional do Canadá?",
           "options": [
-            "A) Hóquei no gelo",
-            "B) Lacrosse",
-            "C) Futebol",
-            "D) Esqui"
+            "Hóquei no gelo",
+            "Lacrosse",
+            "Futebol",
+            "Esqui"
           ],
           "answer": 0
         },
         {
           "question": "Quantos pontos vale um touchdown no futebol americano?",
           "options": [
-            "A) 3",
-            "B) 4",
-            "C) 6",
-            "D) 7"
+            "6",
+            "3",
+            "7",
+            "4"
           ],
-          "answer": 2
+          "answer": 0
         },
         {
           "question": "Quem é o atual campeão da NBA (2022)?",
           "options": [
-            "A) Los Angeles Lakers",
-            "B) Golden State Warriors",
-            "C) Milwaukee Bucks",
-            "D) Brooklyn Nets"
+            "Milwaukee Bucks",
+            "Golden State Warriors",
+            "Brooklyn Nets",
+            "Los Angeles Lakers"
           ],
-          "answer": 2
+          "answer": 0
         },
         {
           "question": "Qual é o nome do evento esportivo que reúne os melhores surfistas do mundo?",
           "options": [
-            "A) Campeonato Mundial de Surf",
-            "B) World Surf League (WSL)",
-            "C) Rip Curl Pro",
-            "D) Mavericks Challenge"
+            "World Surf League (WSL)",
+            "Campeonato Mundial de Surf",
+            "Mavericks Challenge",
+            "Rip Curl Pro"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "question": "Qual é o nome do esporte em que os competidores lançam uma bola de metal o mais perto possível de uma pequena bola alvo?",
           "options": [
-            "A) Boliche",
-            "B) Bocha",
-            "C) Curling",
-            "D) Croquet"
+            "Curling",
+            "Bocha",
+            "Boliche",
+            "Croquet"
           ],
           "answer": 1
         },
         {
           "question": "Quem é considerado o maior jogador de xadrez de todos os tempos?",
           "options": [
-            "A) Bobby Fischer",
-            "B) Garry Kasparov",
-            "C) Magnus Carlsen",
-            "D) Anatoly Karpov"
+            "Anatoly Karpov",
+            "Garry Kasparov",
+            "Magnus Carlsen",
+            "Bobby Fischer"
           ],
-          "answer": 0
+          "answer": 3
         },
         {
           "question": "Em que esporte é concedida a \"Bola de Ouro\" para o melhor jogador do mundo?",
           "options": [
-            "A) Futebol (Soccer)",
-            "B) Basquete",
-            "C) Futebol Americano",
-            "D) Tênis"
+            "Tênis",
+            "Futebol Americano",
+            "Basquete",
+            "Futebol (Soccer)"
           ],
-          "answer": 0
+          "answer": 3
         },
         {
           "question": "Qual é o nome do evento esportivo que ocorre a cada quatro anos e reúne os melhores atletas do mundo em diferentes modalidades?",
           "options": [
-            "A) Copa do Mundo",
-            "B) Olimpíadas",
-            "C) Campeonato Mundial",
-            "D) Liga dos Campeões"
+            "Copa do Mundo",
+            "Liga dos Campeões",
+            "Olimpíadas",
+            "Campeonato Mundial"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
           "question": "Qual é a distância de uma maratona oficial?",
           "options": [
-            "A) 21 km",
-            "B) 26,2 milhas (42,195 k",
-            "C) 10 km",
-            "D) 50 km"
+            "26,2 milhas (42,195 k",
+            "10 km",
+            "50 km",
+            "21 km"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "question": "Qual país venceu a Copa do Mundo de Futebol Feminino em 2019?",
           "options": [
-            "A) Alemanha",
-            "B) Estados Unidos",
-            "C) Brasil",
-            "D) Suécia"
+            "Brasil",
+            "Alemanha",
+            "Estados Unidos",
+            "Suécia"
           ],
-          "answer": 1
+          "answer": 2
         }
       ]
     }
