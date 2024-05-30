@@ -6526,6 +6526,11 @@
             <param name="sources">The legal <see cref="T:Fusion.RpcSources"/> types that can trigger this Rpc. Default is <see cref="F:Fusion.RpcSources.All"/></param>
             <param name="targets">The <see cref="T:Fusion.RpcTargets"/> types that will receive and invoke this method. Default is <see cref="F:Fusion.RpcTargets.All"/></param>
         </member>
+        <member name="F:Fusion.RpcAttribute.MaxPayloadSize">
+            <summary>
+            Maximum allowed size for the payload of the RPC message.
+            </summary>
+        </member>
         <member name="F:Fusion.RpcChannel.Reliable">
             <summary>
             Rpc order preserved, delivery verified, resend in case of a failed delivery. 
@@ -6598,9 +6603,14 @@
             Not invoked because target player is local and this <see cref="T:Fusion.NetworkObject"/> current authority does not match flags set in <see cref="P:Fusion.RpcAttribute.Targets"/>
             </summary>
         </member>
-        <member name="F:Fusion.RpcLocalInvokeResult.TagetPlayerIsNotLocal">
+        <member name="F:Fusion.RpcLocalInvokeResult.TargetPlayerIsNotLocal">
             <summary>
             Not invoked because target player is not local.
+            </summary>
+        </member>
+        <member name="F:Fusion.RpcLocalInvokeResult.PayloadSizeExceeded">
+            <summary>
+            RPC is too large. See <see cref="F:Fusion.RpcAttribute.MaxPayloadSize"/> for the maximum allowed size.
             </summary>
         </member>
         <member name="T:Fusion.RpcSendCullResult">
@@ -6637,6 +6647,11 @@
         <member name="F:Fusion.RpcSendCullResult.TargetPlayerIsLocalButRpcIsNotInvokableLocally">
             <summary>
             Send culled because target player is local and <see cref="P:Fusion.RpcAttribute.InvokeLocal"/> is false.
+            </summary>
+        </member>
+        <member name="F:Fusion.RpcSendCullResult.PayloadSizeExceeded">
+            <summary>
+            RPC message size is too large to be sent. See <see cref="F:Fusion.RpcAttribute.MaxPayloadSize"/> for the maximum allowed size.
             </summary>
         </member>
         <member name="T:Fusion.RpcSendResult">
@@ -7889,7 +7904,7 @@
             Join the Peer to a specific Lobby, either a prebuild or a custom one.
             
             More about matchmaking:
-            https://doc.photonengine.com/en-us/fusion/current/manual/matchmaking
+            https://doc.photonengine.com/fusion/v1/manual/matchmaking
             </summary>
             <param name="sessionLobby">Lobby Type to Join</param>
             <param name="lobbyID">Lobby ID</param>
@@ -7903,7 +7918,7 @@
             Starts the local Fusion Runner and takes care of all major setup necessary
             
             More about matchmaking:
-            https://doc.photonengine.com/en-us/fusion/current/manual/matchmaking
+            https://doc.photonengine.com/fusion/v1/manual/matchmaking
             </summary>
             <param name="args">Custom arguments used to setup the Fusion Simulation</param>
             <returns>Task that can be awaited to chain actions</returns>
@@ -8091,7 +8106,7 @@
             Fusion Start Arguments, used to configure the simulation mode and other settings
             
             More about matchmaking:
-            https://doc.photonengine.com/en-us/fusion/current/manual/matchmaking
+            https://doc.photonengine.com/fusion/v1/manual/matchmaking
             </summary>
         </member>
         <member name="F:Fusion.StartGameArgs.GameMode">
@@ -9178,6 +9193,11 @@
             Returns (<see cref="F:Fusion.SimulationConfig.ClientPacketInterval"/> * <see cref="P:Fusion.SimulationConfig.DeltaTime"/>). This is the effective time interval (in seconds) between client input/state updates from the client.
             </summary>
         </member>
+        <member name="F:Fusion.SimulationConfig.EnableHalfNetworkTick">
+            <summary>
+            Enable Half Network Tick
+            </summary>
+        </member>
         <member name="M:Fusion.SimulationConfig.Init(System.Nullable{System.Int32},System.Nullable{System.Int32})">
             <summary>
             
@@ -9458,6 +9478,11 @@
             <param name="sim">Simulation to get the Memory from</param>
             <param name="capacityInBytes">Size in bytes of the new <see cref="T:Fusion.SimulationMessage"/></param>
             <returns></returns>
+        </member>
+        <member name="M:Fusion.SimulationMessage.CanAllocateUserPayload(System.Int32)">
+            <summary>
+            Checks if a message with given size can be allocated.
+            </summary>
         </member>
         <member name="T:Fusion.SimulationModes">
             <summary>

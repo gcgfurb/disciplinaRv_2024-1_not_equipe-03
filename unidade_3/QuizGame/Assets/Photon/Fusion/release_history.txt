@@ -1,3 +1,32 @@
+# 1.1.9
+
+## F
+
+### Build 829 (May 09, 2024)
+
+**Changes**
+
+- Photon Realtime SDK to 4.1.8.3
+- Max payload size for RPC to 512 bytes
+- RPCs are culled if payload size is over `RpcAttribute.MaxPayloadSize` bytes
+- Implementeed packet throttling to 2 packets/second when client vanishes
+- Made IAfterPhysicsSyncTransforms callbacks public and Made NRB.CopyRigidbodyFromBufferToEngine() protected
+
+**Bug Fixes**
+
+- Fixed: NetAddress.CreateFromIpPort should ignore IPv6 Scope ID
+- Fixed: Single STUN Server Handling
+- Fixed: Fusion stats displaying snapshot size in bits instead of bytes in shared mode
+- Fixed: `GetDrawerTypeForTypeDelegate` error in Unity 2022.3.23 or newer
+- Fixed: Client stops receiving updates after connection freeze
+- Fixed: Typo in `RpcLocalInvokeResult.TargetPlayerIsNotLocal` (was: `RpcLocalInvokeResult.TagetPlayerIsNotLocal`)
+- Fixed: Occasional `NullReferenceException` when multiple objects are spawned and immediately despawned
+- Fixed: `NetworkPrefabTable` not auto-refreshing when importing prefabs that already have `FusionPrefab` label (e.g. incoming from version control)
+- Fixed: Unity introduced change in newer versions where AddComponent<UI.Text> at runtime results in a null font. This is now checked for and default font is applied as needed
+- Fixed: Editor freezing on prefab rename
+- Fixed: FusionStats Average Per Second handling in Shared Mode corrected to use correct time range. Previously was showing smaller than correct averages due to Shared Clients mixing of Local and Remote times
+- Fixed: NetworkDebugStart will now correctly start in Shared Mode when set to Automatic
+
 # 1.1.8
 
 ## F
