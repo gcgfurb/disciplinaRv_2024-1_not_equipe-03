@@ -30,6 +30,6 @@ public class TeleportPadBehaviour : MonoBehaviour
         SceneCategory.value = category;
 
         Debug.Log("Collided with a Player");
-        SceneManager.LoadScene("SampleScene");
+        // SceneManager.LoadScene("SampleScene");
     }
 }

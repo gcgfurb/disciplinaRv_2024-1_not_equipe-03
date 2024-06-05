@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 public class BasicSpawner : MonoBehaviour, INetworkRunnerCallbacks
 {
     [SerializeField] private NetworkPrefabRef _playerPrefab;
-    private Dictionary<PlayerRef, NetworkObject> _spawnedCharacters = new Dictionary<PlayerRef, NetworkObject>();
+    private Dictionary<PlayerRef, NetworkObject> _spawnedCharacters = new();
     private NetworkRunner _runner;
 
     // Start is called before the first frame update
@@ -48,19 +48,33 @@ public class BasicSpawner : MonoBehaviour, INetworkRunnerCallbacks
 
     public void OnInput(NetworkRunner runner, NetworkInput input)
     {
-        throw new NotImplementedException();
+        // var data = new NetworkInputData();
+        //
+        // if (Input.GetKey(KeyCode.W))
+        //     data.direction += Vector3.forward;
+        //
+        // if (Input.GetKey(KeyCode.S))
+        //     data.direction += Vector3.back;
+        //
+        // if (Input.GetKey(KeyCode.A))
+        //     data.direction += Vector3.left;
+        //
+        // if (Input.GetKey(KeyCode.D))
+        //     data.direction += Vector3.right;
+        //
+        // input.Set(data);
     }
 
     public void OnInputMissing(NetworkRunner runner, PlayerRef player, NetworkInput input)
     {
-        throw new NotImplementedException();
+        Debug.Log($"Input missing from player {player.PlayerId}. Input: {input.ToString()}");
     }
 
     public void OnShutdown(NetworkRunner runner, ShutdownReason shutdownReason)
     {
-        throw new NotImplementedException();
+        Debug.Log($"Server shutdown because: {shutdownReason.ToString()}");
     }
-
+    
     public void OnConnectedToServer(NetworkRunner runner)
     {
         Debug.Log($"Connected to the room: {runner.SessionInfo.Name}");
@@ -73,7 +87,7 @@ public class BasicSpawner : MonoBehaviour, INetworkRunnerCallbacks
 
     public void OnConnectRequest(NetworkRunner runner, NetworkRunnerCallbackArgs.ConnectRequest request, byte[] token)
     {
-        throw new NotImplementedException();
+        Debug.Log($"Received connection request from address: {request.RemoteAddress} with token: {token}");
     }
 
     public void OnConnectFailed(NetworkRunner runner, NetAddress remoteAddress, NetConnectFailedReason reason)
@@ -83,17 +97,17 @@ public class BasicSpawner : MonoBehaviour, INetworkRunnerCallbacks
 
     public void OnUserSimulationMessage(NetworkRunner runner, SimulationMessagePtr message)
     {
-        throw new NotImplementedException();
+        // throw new NotImplementedException();
     }
 
     public void OnSessionListUpdated(NetworkRunner runner, List<SessionInfo> sessionList)
     {
-        throw new NotImplementedException();
+        // throw new NotImplementedException();
     }
 
     public void OnCustomAuthenticationResponse(NetworkRunner runner, Dictionary<string, object> data)
     {
-        throw new NotImplementedException();
+        // throw new NotImplementedException();
     }
 
     public void OnHostMigration(NetworkRunner runner, HostMigrationToken hostMigrationToken)
@@ -103,7 +117,7 @@ public class BasicSpawner : MonoBehaviour, INetworkRunnerCallbacks
 
     public void OnReliableDataReceived(NetworkRunner runner, PlayerRef player, ArraySegment<byte> data)
     {
-        throw new NotImplementedException();
+        // throw new NotImplementedException();
     }
 
     public void OnSceneLoadDone(NetworkRunner runner)
