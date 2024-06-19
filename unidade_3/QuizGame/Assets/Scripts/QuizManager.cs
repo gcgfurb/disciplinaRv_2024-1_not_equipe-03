@@ -9,6 +9,7 @@ public class QuizManager : MonoBehaviour
 {
     private TextMeshProUGUI questionText; // reference to the question text object
     private List<TextMeshProUGUI> optionsTexts = new(); // list of references to the option text objects
+    private string[] letters = { "A) ", "B) ", "C) ", "D) " };
 
     private List<Question> questions; // list of questions
 
@@ -32,15 +33,19 @@ public class QuizManager : MonoBehaviour
         // display the first question
         DisplayQuestion();
     }
+
     void SetQuestionText()
     {
         GameObject textMeshProObject = GameObject.Find("pergunta");
-        if (textMeshProObject == null) {
+        if (textMeshProObject == null)
+        {
             Debug.LogError("GameObject 'pergunta' not found!");
             return;
         }
+
         questionText = textMeshProObject.GetComponent<TextMeshProUGUI>();
     }
+
     void SetOptions()
     {
         GameObject textMeshProObject;
@@ -49,10 +54,12 @@ public class QuizManager : MonoBehaviour
         {
             gameObjectName = string.Format("opcao{0}", i);
             textMeshProObject = GameObject.Find(gameObjectName);
-            if (textMeshProObject == null) {
+            if (textMeshProObject == null)
+            {
                 Debug.LogError(string.Format("GameObject '{0}' not found!", gameObjectName));
                 continue;
             }
+
             optionsTexts.Add(textMeshProObject.GetComponent<TextMeshProUGUI>());
         }
     }
@@ -63,14 +70,14 @@ public class QuizManager : MonoBehaviour
         indexCurrentQuestion = random.Next(0, questions.Count);
         // Load the random question
         currentQuestion = questions[indexCurrentQuestion];
-        
+
         // set the question text
         questionText.text = currentQuestion.question;
 
         // set the answer texts
         for (int i = 0; i < currentQuestion.options.Count; i++)
         {
-            optionsTexts[i].text = currentQuestion.options[i];
+            optionsTexts[i].text = letters[i] + currentQuestion.options[i];
         }
 
         // reset the button selectors
@@ -87,6 +94,7 @@ public class QuizManager : MonoBehaviour
             SceneManager.LoadScene("LobbyScene");
             return;
         }
+
         // check if the answer is correct
         bool isCorrect = currentQuestion.answer == answerIndex;
 
